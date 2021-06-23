@@ -15,15 +15,33 @@ class _LoginPageState extends State<LoginPage> {
     final size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: AppColors.background,
-      body: Stack(
-        children: [
-          Container(
-            width: size.width,
-            height: size.height * 0.4,
-            color: AppColors.primary,
-          ),
-          Positioned(left: 10, child: Image.asset(AppImages.person))
-        ],
+      body: Container(
+        width: size.width,
+        height: size.height,
+        child: Stack(
+          children: [
+            Container(
+              width: size.width,
+              height: size.height * 0.4,
+              color: AppColors.primary,
+            ),
+            Positioned(
+                top: 40,
+                left: 10,
+                right: 0,
+                child: Image.asset(
+                  AppImages.person,
+                  width: 208,
+                  height: 373,
+                )),
+            Positioned(
+              bottom: 50,
+              child: Column(
+                children: [Image.asset(AppImages.logomini)],
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
