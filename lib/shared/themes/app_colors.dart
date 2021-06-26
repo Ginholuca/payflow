@@ -9,4 +9,6 @@ class AppColors {
   static final stroke = Color(0xFFE3E3E6);
   static final shape = Color(0xFFFAFAFC);
   static final background = Color(0xFFFFFFFF);
+
+  static var input;
 }
