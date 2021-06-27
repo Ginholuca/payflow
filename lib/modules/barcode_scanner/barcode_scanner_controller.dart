@@ -23,4 +23,6 @@ class BarcodeScannerController {
       status = BarcodeScannerStatus.error(e.toString());
     }
   }
+
+  void listenCamera() {}
 }
