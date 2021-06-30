@@ -21,7 +21,9 @@ class LabelButton extends StatelessWidget {
       );
 
   factory LabelButton.primary(
-          {required String label, required VoidCallback onPressed}) =>
+          {required String label,
+          required VoidCallback onPressed,
+          TextStyle? style}) =>
       LabelButton(
         label: label,
         onPressed: onPressed,
