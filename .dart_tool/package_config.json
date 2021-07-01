@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "animated_card",
+      "rootUri": "file:///C:/Users/ginho/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/animated_card-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "async",
       "rootUri": "file:///C:/Users/ginho/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/async-2.6.1",
       "packageUri": "lib/",
@@ -398,7 +404,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-06-30T02:11:24.194735Z",
+  "generated": "2021-07-01T07:34:12.875221Z",
   "generator": "pub",
   "generatorVersion": "2.13.3"
 }
