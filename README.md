@@ -9,7 +9,7 @@
 
 </p>
 
-<p align="center"> Feito com 💜 by Ginholuca :octocat: </p>
+<p align="center"> Feito com 💜 by <a src="https://www.instagram.com/ginholuca/">Ginholuca</a> :octocat: </p>
 
 <h2 align="center">Tópicos 📋</h2>
 
